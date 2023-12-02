@@ -7,7 +7,6 @@ function Root() {
     <div>
       <Navbar/>
       <BreadCrumb/>
-    
       <Outlet/>
     </div>
    

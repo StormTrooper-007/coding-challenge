@@ -32,7 +32,7 @@ function BreadCrumb() {
           component="a"
           href="/"
           label="doctors record"
-          icon={<ListIcon fontSize="small" />}
+          icon={<ListIcon fontSize="large"/>}
         />
         
         <StyledBreadcrumb
