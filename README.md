@@ -1,6 +1,18 @@
-# React + TypeScript + Vite
+#Instructions on how to run the app in your computer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You can run this project on your computer by cloning the project to your local machine from github or by using docker if you have docker installed in your computer. below are the instructions for both -
+
+#Github
+- create a new folder in your computer clone the repository from - git@github.com:StormTrooper-007/coding-challenge.git
+
+- cd to the cloned folder and run - npm install
+
+- run npm run dev
+
+
+
+
+
 
 Currently, two official plugins are available:
 
