@@ -1,16 +1,17 @@
-import { Outlet } from "react-router-dom"
-import Navbar from "../components/Navbar"
-import BreadCrumb from "../components/BreadCrumb"
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import BreadCrumb from "../components/BreadCrumb";
+import { ThemeProvider } from "@emotion/react";
+import { darkTheme } from "../main";
 
 function Root() {
   return (
-    <div>
-      <Navbar/>
-      <BreadCrumb/>
-      <Outlet/>
-    </div>
-   
-  )
+    <ThemeProvider theme={darkTheme}>
+        <Navbar />
+        <BreadCrumb />
+        <Outlet />
+    </ThemeProvider>
+  );
 }
 
-export default Root
+export default Root;
